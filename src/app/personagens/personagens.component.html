@@ -1,0 +1,7 @@
+<app-navbar></app-navbar>
+<body>
+<div *ngIf="characters">   
+<h1 *ngFor="let personagens of characters.results">Nome: {{personagens.name}}</h1>
+</div>
+</body>
+<app-footer></app-footer>
